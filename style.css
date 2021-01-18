@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+}
+
+.banner {
+    height: 500px;
+    background-color: orange;
+    background-image: url('images/desktop/image-hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    margin-left: 165px;
+    margin-right: 165px;
+    padding-top: 10px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-buttons > a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    font-size: x-small;
+}
+
+.banner-text {
+    color: white;
+    border: 1px solid white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+    padding: 20px 100px 20px 20px;
+    margin-top: 100px;
+}
+
+.banner-text > p {
+    margin: 0;
+}
+
+.virtual-section .container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.vr-image {
+    flex: 0.8;
+    width: 400px;
+}
+
+.vr-image > img {
+    width: 100%;
+}
+
+.vr-text {
+    flex: 0.5;
+    align-self: flex-end;
+    background-color: white;
+    padding-top: 60px;
+    padding-left: 60px;
+    margin-left: -150px;
+}
+
+.vr-text > h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+    margin: 0;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.vr-text > p {
+    font-family: 'Josefin Sans', sans-serif;
+    color: hsl(0, 0%, 55%);
+    line-height: 1.5;
+}
+
+.title-creation {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.title-creation > h2 {
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+}
+
+.see-all-button {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 2px 50px 2px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+.see-all-button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.gallery {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.gallery-image {
+    height: 400px;
+    flex: 1 0 0.20;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 100;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background-size: cover;
+    transition: 180ms ease;
+    margin: 5px;
+    width: 20%;
+}
+
+.gallery-image:hover {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transform: scale(0.95);
+    transform: scale(0.95);
+    transition: 180ms ease;
+    cursor: pointer;
+}
+
+.gallery-text {
+    padding-right: 16px;
+    font-weight: 100;
+}
+
+.footer {
+    margin-top: 100px;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.footer-left {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.footer-logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.footer-icons {
+    margin-left: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px;
+}
+
+.footer-icons > img {
+    display: flex;
+    height: 15px;
+    padding: 5px;
+}
+
+.footer-buttons > a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    font-size: x-small;
+}
